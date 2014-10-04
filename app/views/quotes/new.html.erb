@@ -1,0 +1,9 @@
+<div class = "awesome- col-xs-6 col-xs-offset-3 text-center">
+<h1> Please enter your life advice here </h1>
+<%= simple_form_for @quote do |f| %>
+  <%= f.input :saying %>
+  <%= f.input :author %>
+  <%= f.button :submit %>
+<% end %>
+
+</div>
